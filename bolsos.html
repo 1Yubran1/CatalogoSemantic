@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nich</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <style>
+    /* Estilos para las imágenes pequeñas */
+    .img-thumbnail {
+      cursor: pointer; /* Cambia el cursor a una mano al pasar sobre las imágenes */
+      transition: transform 0.2s, box-shadow 0.2s; /* Transición suave para la sombra */
+    }
+    .img-thumbnail.active {
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /* Sombra para la imagen activa */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="ui fixed inverted menu">
+      <div class="ui container">
+        <img src="img/logo.png" alt="Logo" class="ui small image">
+        <a href="index.html" class="header item">Nich</a>
+        <div class="right menu">
+          <a href="index.html" class="item">Inicio</a>
+          <div class="ui dropdown item">
+            <span class="text">Ropa</span>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a href="vestidos.html" class="item">Vestidos</a>
+              <a href="blusas.html" class="item">Blusas</a>
+              <a href="jeans.html" class="item">Pantalones</a>
+            </div>
+          </div>
+          <a href="bolsos.html" class="item">Bolsos</a>
+          <a href="sobrenosotros.html" class="item">Sobre Nosotros</a>
+          <a href="contactanos.html" class="item">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <br>
+    <h1 class="ui center aligned header">BOLSOS</h1>
+    <br>
+
+    <div class="ui container text-center">
+      <div class="ui stackable four column grid">
+        <!-- Bolso 1 -->
+        <div class="column">
+          <br>
+          <div class="ui card">
+            <div class="image">
+              <img src="img/bolsos/bolso1.jpg" class="ui image" alt="...">
+            </div>
+            <div class="content">
+              <div class="header">Bolso azul dama</div>
+              <div class="description">$299.99</div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Tamaño: Chico</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bolso 2 -->
+        <div class="column">
+          <br>
+          <div class="ui card">
+            <div class="image">
+              <img src="img/bolsos/bolso2.jpg" class="ui image" alt="...">
+            </div>
+            <div class="content">
+              <div class="header">Bolso blanco</div>
+              <div class="description">$159.90</div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Tamaño: Mediano</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bolso 3 -->
+        <div class="column">
+          <br>
+          <div class="ui card">
+            <div class="image">
+              <img src="img/bolsos/bolso3.jpg" class="ui image" alt="...">
+            </div>
+            <div class="content">
+              <div class="header">Bolso naranja</div>
+              <div class="description">$399.99</div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Tamaño: Chico</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bolso 4 -->
+        <div class="column">
+          <br>
+          <div class="ui card">
+            <div class="image">
+              <img src="img/bolsos/bolso4.jpg" class="ui image" alt="...">
+            </div>
+            <div class="content">
+              <div class="header">Bolso amarillo</div>
+              <div class="description">$299.99</div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Tamaño: Chico</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer style="background-color: #56585a; color: white;">
+    <div class="ui container">
+      <div class="ui three column stackable grid">
+        <div class="column">
+          <div class="ui header">Síguenos</div>
+          <div class="ui grid">
+            <div class="three column row">
+              <div class="column">
+                <a href="#"><img src="img/iconos/facebook.png" style="width: 24px; height: 24px;" alt="Facebook"></a>
+              </div>
+              <div class="column">
+                <a href="#"><img src="img/iconos/instagram.png" style="width: 24px; height: 24px;" alt="Instagram"></a>
+              </div>
+              <div class="column">
+                <a href="#"><img src="img/iconos/twitter.png" style="width: 24px; height: 24px;" alt="Twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Agrega un comentario</div>
+          <div class="ui action input">
+            <input type="text" placeholder="Comentario...">
+            <button class="ui primary button">Enviar</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui header">Contacto</div>
+          <ul class="ui list">
+            <li><a href="tel:+123456789"><img src="img/iconos/llamada-telefonica.png" style="width: 24px; height: 24px;" alt="Teléfono">Número de teléfono</a></li>
+            <li><a href="mailto:info@example.com"><img src="img/iconos/correo.png" style="width: 24px; height: 24px;" alt="Correo electrónico">Correo electrónico</a></li>
+            <li><a href="mailto:info@example.com"><img src="img/iconos/whatsapp.png" style="width: 24px; height: 24px;" alt="Whatsapp">Whatsapp</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+</html>

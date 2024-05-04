@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <title>Nich</title>
+  <style>
+    /* Estilos para las imágenes pequeñas */
+    .img-thumbnail {
+      cursor: pointer; /* Cambia el cursor a una mano al pasar sobre las imágenes */
+      transition: transform 0.2s, box-shadow 0.2s; /* Transición suave para la sombra */
+    }
+    .img-thumbnail.active {
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /* Sombra para la imagen activa */
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="ui container">
+    <div class="ui secondary menu">
+      <a href="#" class="item">
+        <img src="img/logo.png" alt="Logo" class="ui tiny image">
+        <span class="ui header">Nich</span>
+      </a>
+      <div class="right menu">
+        <a href="index.html" class="item active">Inicio</a>
+        <div class="ui dropdown item">
+          Ropa <i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="vestidos.html" class="item">Vestidos</a>
+            <a href="blusas.html" class="item">Blusas</a>
+            <a href="jeans.html" class="item">Pantalones</a>
+          </div>
+        </div>
+        <a href="bolsos.html" class="item">Bolsos</a>
+        <a href="sobrenosotros.html" class="item">Sobre Nosotros</a>
+        <a href="contactanos.html" class="item">Contáctanos</a>
+      </div>
+    </div>
+  </div>
+</header>
+<br>
+<h1 class="ui center aligned header">Jeans para dama</h1>
+<br>
+
+<div class="ui container">
+  <div class="ui centered stackable four column grid">
+    <!-- Pantalón 1 -->
+    <div class="column">
+      <br>
+      <div class="ui card">
+        <div class="ui slide masked reveal image">
+          <img src="img/jeans/jeans1.jpg" class="visible content">
+          <img src="img/jeans/jeans1.1.jpg" class="hidden content">
+        </div>
+        <div class="content">
+          <div class="header">Pantalón de mezclilla con aberturas</div>
+          <div class="meta">$299.99 <span class="ui red right ribbon label">-$399.00</span></div>
+          <div class="description">Talla: Ch</div>
+        </div>
+        <div class="extra content">
+          <a href="#" class="ui primary button">Ver</a>
+        </div>
+      </div>
+    </div>
+    <!-- Pantalón 2 -->
+    <div class="column">
+      <br>
+      <div class="ui card">
+        <div class="ui slide masked reveal image">
+          <img src="img/jeans/jeans2.jpg" class="visible content">
+          <img src="img/jeans/jeans2.1.jpg" class="hidden content">
+        </div>
+        <div class="content">
+          <div class="header">Pantalón gris</div>
+          <div class="meta">$159.90 <span class="ui red right ribbon label">-$399.00</span></div>
+          <div class="description">Talla: M</div>
+        </div>
+        <div class="extra content">
+          <a href="#" class="ui primary button">Ver</a>
+        </div>
+      </div>
+    </div>
+    <!-- Pantalón 3 -->
+    <div class="column">
+      <br>
+      <div class="ui card">
+        <div class="ui slide masked reveal image">
+          <img src="img/jeans/jeans3.jpg" class="visible content">
+          <img src="img/jeans/jeans3.1.jpg" class="hidden content">
+        </div>
+        <div class="content">
+          <div class="header">Pantalón negro</div>
+          <div class="meta">$399.99</div>
+          <div class="description">Talla: M</div>
+        </div>
+        <div class="extra content">
+          <a href="#" class="ui primary button">Ver</a>
+        </div>
+      </div>
+    </div>
+    <!-- Pantalón 4 -->
+    <div class="column">
+      <br>
+      <div class="ui card">
+        <div class="ui slide masked reveal image">
+          <img src="img/jeans/jeans4.jpg" class="visible content">
+          <img src="img/jeans/jeans4.1.jpg" class="hidden content">
+        </div>
+        <div class="content">
+          <div class="header">Pantalón mezclilla</div>
+          <div class="meta">$299.99</div>
+          <div class="description">Talla: M</div>
+        </div>
+        <div class="extra content">
+          <a href="#" class="ui primary button">Ver</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 1 -->
+<div class="ui modal" id="exampleModal1">
+  <i class="close icon"></i>
+  <div class="header">Pantalón de mezclilla con aberturas</div>
+  <div class="image content">
+    <img class="ui centered image" src="img/jeans/jeans1.jpg">
+  </div>
+  <div class="actions">
+    <div class="ui button">Cerrar</div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="ui modal" id="exampleModal2">
+  <i class="close icon"></i>
+  <div class="header">Pantalón gris</div>
+  <div class="image content">
+    <img class="ui centered image" src="img/jeans/jeans2.jpg">
+  </div>
+  <div class="actions">
+    <div class="ui button">Cerrar</div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="ui modal" id="exampleModal3">
+  <i class="close icon"></i>
+  <div class="header">Pantalón negro</div>
+  <div class="image content">
+    <img class="ui centered image" src="img/jeans/jeans3.jpg">
+  </div>
+  <div class="actions">
+    <div class="ui button">Cerrar</div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="ui modal" id="exampleModal4">
+  <i class="close icon"></i>
+  <div class="header">Pantalón mezclilla</div>
+  <div class="image content">
+    <img class="ui centered image" src="img/jeans/jeans4.jpg">
+  </div>
+  <div class="actions">
+    <div class="ui button">Cerrar</div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script>
+  // Funcionalidad de los modales
+  $('.ui.modal').modal();
+
+  // Funcionalidad de las imágenes pequeñas en los modales
+  $('.ui.card .slide.masked.reveal.image').click(function() {
+    $(this).closest('.ui.card').find('.ui.modal').modal('show');
+  });
+</script>
+
+</body>
+<br></br><br></br>
+<footer style="background-color: #56585a; color: white;">
+  <div class="ui container">
+    <div class="ui three column stackable grid">
+      <div class="column">
+        <div class="siguenos">
+          <h4>Síguenos</h4>
+          <div class="redes-sociales">
+            <a href="#"><img src="img/iconos/facebook.png" style="width: 24px; height: 24px;" alt="Facebook"></a>
+            <a href="#"><img src="img/iconos/instagram.png" style="width: 24px; height: 24px;" alt="Instagram"></a>
+            <a href="#"><img src="img/iconos/twitter.png" style="width: 24px; height: 24px;" alt="Twitter"></a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="comentario">
+          <h4><center>Agrega un comentario</center></h4>
+          <div class="ui action input">
+            <input type="text" placeholder="Comentario...">
+            <button class="ui primary button">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="contacto">
+          <h4><center>Contacto</center></h4>
+          <div class="iconos-contacto">
+            <ul>
+              <li><a href="tel:+123456789"><img src="img/iconos/llamada-telefonica.png" style="width: 24px; height: 24px;" alt="Teléfono"></a>Número de teléfono</li>
+              <li><a href="mailto:info@example.com"><img src="img/iconos/correo.png" style="width: 24px; height: 24px;" alt="Correo electrónico"></a>Correo electrónico</li>
+              <li><a href="mailto:info@example.com"><img src="img/iconos/whatsapp.png" style="width: 24px; height: 24px;" alt="Whatsapp"></a>Whatsapp</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
