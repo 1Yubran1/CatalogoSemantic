@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nich</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
   <link rel="icon" href="img/logo.png" type="image/png">
 </head>
 <body>
   <header>
-    <div class="ui fixed inverted menu">
+    <nav class="ui menu inverted bg-body-tertiary">
       <div class="ui container">
-        <img src="img/logo.png" alt="Logo" class="ui small image">
-        <a href="index.html" class="header item">Nich</a>
+        <img src="img/logo.png" alt="Logo" class="ui image" width="100" height="100">
+        <a class="header item" href="index.html">Nich</a>
         <div class="right menu">
-          <a href="index.html" class="item">Inicio</a>
+          <a class="item" href="index.html">Inicio</a>
           <div class="ui dropdown item">
             <span class="text">Ropa</span>
             <i class="dropdown icon"></i>
@@ -24,82 +26,85 @@
               <a href="jeans.html" class="item">Pantalones</a>
             </div>
           </div>
-          <a href="bolsos.html" class="item">Bolsos</a>
-          <a href="sobrenosotros.html" class="item">Sobre Nosotros</a>
-          <a href="contactanos.html" class="item">Contáctanos</a>
+          <a class="item" href="bolsos.html">Bolsos</a>
+          <a class="item" href="sobrenosotros.html">Sobre Nosotros</a>
+          <a class="item active" href="contactanos.html">Contáctanos</a>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
 
-  <div class="ui container">
-    <br>
-    <h1 class="ui center aligned header">Blusas y camisas para dama</h1>
-    <br>
-
-    <div class="ui stackable four column grid">
-      <div class="column">
-        <div class="ui card">
-          <div class="image">
-            <img src="img/blusas/blusa1.jpg" alt="Camisa de cuadros">
+  <main>
+    <div class="ui container">
+      <br>
+      <h1 class="ui center aligned header">Blusas y camisas para dama</h1>
+      <br>
+  
+      <div class="ui stackable four column grid">
+        <div class="column">
+          <div class="ui card">
+            <div class="image">
+              <img src="img/blusas/blusa1.jpg" alt="Camisa de cuadros">
+            </div>
+            <div class="content">
+              <div class="header">Camisa de cuadros</div>
+              <div class="description">$299.99 <span class="ui green ribbon label">-$399.00</span></div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Talla: Ch</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
           </div>
-          <div class="content">
-            <div class="header">Camisa de cuadros</div>
-            <div class="description">$299.99 <span class="ui green ribbon label">-$399.00</span></div>
+        </div>
+        <div class="column">
+          <div class="ui card">
+            <div class="image">
+              <img src="img/blusas/blusa2.jpg" alt="Blusa negra">
+            </div>
+            <div class="content">
+              <div class="header">Blusa negra</div>
+              <div class="description">$159.90 <span class="ui green ribbon label">-$399.00</span></div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Talla: M</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
           </div>
-          <div class="extra content">
-            <div class="ui blue tag label">Talla: Ch</div>
-            <a href="#" class="ui primary button">Ver</a>
+        </div>
+        <div class="column">
+          <div class="ui card">
+            <div class="image">
+              <img src="img/blusas/blusa3.jpg" alt="Blusa blanca">
+            </div>
+            <div class="content">
+              <div class="header">Blusa blanca</div>
+              <div class="description">$399.99</div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Talla: M</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui card">
+            <div class="image">
+              <img src="img/blusas/camisa1.jpg" alt="Camisa blanca">
+            </div>
+            <div class="content">
+              <div class="header">Camisa blanca</div>
+              <div class="description">$299.99</div>
+            </div>
+            <div class="extra content">
+              <div class="ui blue tag label">Talla: M</div>
+              <a href="#" class="ui primary button">Ver</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="column">
-        <div class="ui card">
-          <div class="image">
-            <img src="img/blusas/blusa2.jpg" alt="Blusa negra">
-          </div>
-          <div class="content">
-            <div class="header">Blusa negra</div>
-            <div class="description">$159.90 <span class="ui green ribbon label">-$399.00</span></div>
-          </div>
-          <div class="extra content">
-            <div class="ui blue tag label">Talla: M</div>
-            <a href="#" class="ui primary button">Ver</a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui card">
-          <div class="image">
-            <img src="img/blusas/blusa3.jpg" alt="Blusa blanca">
-          </div>
-          <div class="content">
-            <div class="header">Blusa blanca</div>
-            <div class="description">$399.99</div>
-          </div>
-          <div class="extra content">
-            <div class="ui blue tag label">Talla: M</div>
-            <a href="#" class="ui primary button">Ver</a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui card">
-          <div class="image">
-            <img src="img/blusas/camisa1.jpg" alt="Camisa blanca">
-          </div>
-          <div class="content">
-            <div class="header">Camisa blanca</div>
-            <div class="description">$299.99</div>
-          </div>
-          <div class="extra content">
-            <div class="ui blue tag label">Talla: M</div>
-            <a href="#" class="ui primary button">Ver</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </div>  
+  </main>
+  
 
   <footer style="background-color: #56585a; color: white;">
     <div class="ui container">
